@@ -15,7 +15,7 @@ btn3.pack()
 btn4 = Button(root,fg="red", bg="yellow", text="button 4") #색 지정
 btn4.pack()
 
-photo = PhotoImage(file="C:\\Users\\user\\PycharmProjects\\Python_GUI\\Gui_Base\\img.jpg")
+photo = PhotoImage(file="Gui_Base/img.jpg")
 btn5 = Button(root,image=photo) # 버튼사진으로
 btn5.pack()
 
